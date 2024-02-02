@@ -1,0 +1,96 @@
+.part-1 {
+    background-color: black;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p-part-1-1 {
+    color: white;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    margin-top: 79px;
+}
+
+.p-part-1-2 {
+    color: #FFFFFF80;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.button-part-1-3-Start-free-trial {
+    width: 240px;
+    height: 60px;
+    color: black;
+    background-color: white;
+    border-color: white;
+    border-radius: 5px;
+    border-style: solid;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.button-part-1-3-Start-free-trial:hover {
+    background-color: gray;
+    border-color: gray;
+    color: white;
+}
+
+.button-part-1-3-Start-free-trial:active {
+    opacity: 50%;
+}
+
+.div-part-1-4-container {
+    background-color: white;
+    width: 800px;
+    height: 343px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: 357px;
+    position: absolute;
+    display: flex;
+}
+
+.div-part-1-4-container-buttons {
+    width: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.button-part-1-4-round-button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border-style: solid;
+    background-color: white;
+    border-color: black;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+.button-part-1-4-round-button:hover {
+    background-color: black;
+}
+
+.button-part-1-4-round-button:active {
+    opacity: 50%;
+}
+
+.img-part-1-4-main-pic {
+    width: 400px;
+    height: 247px;
+    margin-left: 135px;
+    margin-top: 70px;
+}

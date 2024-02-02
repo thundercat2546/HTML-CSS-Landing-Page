@@ -1,0 +1,87 @@
+.part-3 {
+    background-color: gray;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.part-3-left {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.part-3-left-container {
+    background-color: white;
+    width: 320px;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.part-3-right {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.part-3-right-container {
+    background-color: white;
+    width: 422px;
+    height: 243px;
+    border: none;
+    display: grid;
+    grid-template-rows: 34px 1fr 60px;
+}
+
+.part-3-right-container-top {
+    background-color: white;
+}
+
+.p-part-3-right-container-top {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.part-3-right-container-middle {
+    background-color: white;
+}
+
+.p-part-3-right-container-middle {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 42px;
+}
+
+.part-3-right-container-bottom {
+    background-color: white;
+}
+
+.part-3-button-Learn-More {
+    width: 200px;
+    height: 60px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.part-3-button-Learn-More:hover {
+    background-color: black;
+    color: white;
+}
+
+.part-3-button-Learn-More:active {
+    opacity: 50%;
+}

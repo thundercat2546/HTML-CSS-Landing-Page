@@ -1,0 +1,57 @@
+.part-8 {
+    background-color: #F2F2F2;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p-part-8-1-1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 45px;
+}
+
+.p-part-8-1-2 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 45px;
+}
+
+.button-part-8-1 {
+    width: 200px;
+    height: 48px;
+    color: white;
+    background-color: black;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    border-style: solid;
+    margin-right: 15px;
+    margin-left: 270px;
+}
+
+.button-part-8-1:hover {
+    color: black;
+    background-color: gray;
+    border-color: black;
+}
+
+.button-part-8-2 {
+    width: 200px;
+    height: 48px;
+    color: black;
+    background-color: #F2F2F2;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    border-style: solid;
+}
+
+.button-part-8-2:hover {
+    color: black;
+    background-color: gray;
+    border-color: black;
+}
